@@ -1,18 +1,17 @@
-import React from 'react'
+import React from "react";
 import Navbar from "../components/Navbar";
 import Course from "../components/Course";
 import Footer from "../components/Footer";
 function Courses() {
-    // console.log(list);
   return (
     <>
-    <Navbar />
-    <div className=" min-h-screen">
-    <Course />
+      <Navbar />
+      <div className=" min-h-screen">
+        <Course />
       </div>
-    <Footer />
-  </>
-  )
+      <Footer />
+    </>
+  );
 }
 
-export default Courses
+export default Courses;
